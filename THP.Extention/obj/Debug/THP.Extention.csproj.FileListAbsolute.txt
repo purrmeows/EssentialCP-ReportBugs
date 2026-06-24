@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\THP.Extention\THP.Extention\bin\Debug\THP.Extention.dll
+C:\Users\User\source\repos\THP.Extention\THP.Extention\bin\Debug\THP.Extention.pdb
+C:\Users\User\source\repos\THP.Extention\THP.Extention\bin\Debug\EscherGroup.EssentialCP.Core.dll
+C:\Users\User\source\repos\THP.Extention\THP.Extention\bin\Debug\EscherGroup.Riposte.Core.dll
+C:\Users\User\source\repos\THP.Extention\THP.Extention\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\source\repos\THP.Extention\THP.Extention\bin\Debug\EscherGroup.Riposte.Common.dll
+C:\Users\User\source\repos\THP.Extention\THP.Extention\bin\Debug\EscherGroup.Riposte.WebInvoke.dll
+C:\Users\User\source\repos\THP.Extention\THP.Extention\bin\Debug\Microsoft.Maui.Essentials.dll
+C:\Users\User\source\repos\THP.Extention\THP.Extention\bin\Debug\Microsoft.Maui.Graphics.dll
+C:\Users\User\source\repos\THP.Extention\THP.Extention\obj\Debug\THP.Extention.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\THP.Extention\THP.Extention\obj\Debug\THP.Extention.csproj.ResolveComReference.cache
+C:\Users\User\source\repos\THP.Extention\THP.Extention\obj\Debug\THP.Extention.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\THP.Extention\THP.Extention\obj\Debug\THP.Exte.7DC32BFE.Up2Date
+C:\Users\User\source\repos\THP.Extention\THP.Extention\obj\Debug\THP.Extention.dll
+C:\Users\User\source\repos\THP.Extention\THP.Extention\obj\Debug\THP.Extention.pdb
+C:\Users\User\source\repos\THP.Extention\THP.Extention\obj\Debug\THP.Extention.g.resources
