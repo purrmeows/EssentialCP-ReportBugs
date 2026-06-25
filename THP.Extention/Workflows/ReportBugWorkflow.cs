@@ -87,7 +87,7 @@ namespace THP.Extention.Workflows
                 _historyRepository.Load();
 
             for (int i = 0; i < history.Count; i++)
-            {
+            {   //รับประกันว่า BugHistoryItem ทุกตัวต้องมี Id เสมอ
                 if (string.IsNullOrEmpty(history[i].Id))
                 {
                     history[i].Id = Guid.NewGuid().ToString();
@@ -106,12 +106,13 @@ namespace THP.Extention.Workflows
 
             dc.Set(
                 "BugHistory",
-                new System.Collections.ObjectModel.ObservableCollection<BugHistoryItem>(history));
+                new System.Collections.ObjectModel.ObservableCollection<BugHistoryItem>(history)); // ให้ WPF ตารางรับรู้เมื่อมีการเพิ่ม/ลดแถว และแสดงผลบนหน้าจออัตโนมัติ
+                                                                                                   // แจ้งว่าจำนวนสมาชิกใน List เปลี่ยน 
         }
 
         public static ActivityDefinition Submit(DataContext dc)
         {
-            bool isDeleteMode = false;
+            bool isDeleteMode = false;  
             if (dc.ContainsKey("IsDeleteMode"))
             {
                 isDeleteMode = dc.Get<bool>("IsDeleteMode");

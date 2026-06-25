@@ -8,7 +8,7 @@ namespace THP.Extention.UI
 {
     public static class ReportBugViewBuilder
     {
-        public static FormViewDefinition Build(DataContext dc) //13-35 เริ่มต้นสร้างฟอร์ม และการตั้งค่า Visual Tree Tracker
+        public static FormViewDefinition Build(DataContext dc)
         {
             FormViewDefinition form =
                 new FormViewDefinition( 

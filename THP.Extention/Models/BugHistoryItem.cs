@@ -1,8 +1,8 @@
+using EscherGroup.EssentialCP.Client.UI.ViewModels;
+using Microsoft.Vbe.Interop;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Runtime.Serialization;
-
-using EscherGroup.EssentialCP.Client.UI.ViewModels;
 namespace THP.Extention.Models
 {
     [DataContract]
@@ -65,12 +65,15 @@ namespace THP.Extention.Models
                 if (_isChecked != value)
                 {
                     _isChecked = value;
-                    OnPropertyChanged();
+                    OnPropertyChanged(); // แจ้ง Property ข้างใน Object เปลี่ยน
                 }
             }
         }
+        // Event ที่ WPF คอยฟังอยู่ Property เปลี่ยน Object จะส่งสัญญาณให้ UI รู้ เช่นบอกว่า IsChecked เปลี่ยน
+        // WPF จะรู้ว่า BugHistoryItem ตัวนี้
+        // Property IsChecked เปลี่ยน
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler PropertyChanged; 
 
         protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
